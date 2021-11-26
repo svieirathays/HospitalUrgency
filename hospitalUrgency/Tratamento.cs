@@ -6,6 +6,8 @@ namespace hospitalUrgency
 {
     class Tratamento
     {
-
+        private int id;
+        private string nomemedicamento;
+        private string validadereceita;
     }
 }
