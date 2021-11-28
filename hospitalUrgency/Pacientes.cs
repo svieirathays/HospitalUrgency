@@ -49,17 +49,7 @@ namespace hospitalUrgency
             get { return this.telefone; }
             set { this.telefone = value; }
         }
-
-        //construtores ( o que fazer quando o objeto for criado)
-        /*public Pacientes()
-            {
-
-            }
-        */
-        //public Pacientes(int id, string nome, string morada, int cp, int nif) { 
-
-        //    }
-
+        
 
     }
 

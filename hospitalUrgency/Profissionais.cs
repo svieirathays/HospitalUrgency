@@ -13,6 +13,7 @@ namespace hospitalUrgency
         private int cp;
         private int telefone;
         private int nif;
+        private string cargo;
 
         public int Id
         {
@@ -49,6 +50,16 @@ namespace hospitalUrgency
             get { return this.telefone; }
             set { this.telefone = value; }
         }
+
+        public string Cargo
+        {
+            get { return this.cargo; }
+            set { this.cargo = value; }
+        }
+
+        public ICollection<Tratamento> Tratamento { get; set; }
+        public ICollection<ListaPrioridade> ListaPrioridade { get; set; }
+        public ICollection<Pacientes> Pacientes { get; set; }
 
     }
 }

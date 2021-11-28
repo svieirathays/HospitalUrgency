@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="hospitalUrgency.ListaPrioridade">
+    <Position X="2.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAKAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgA=</HashCode>
+      <FileName>ListaPrioridade.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Pacientes" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="hospitalUrgency.Pacientes">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAAgACAAIAAAAAAAACAAAAAAAAAAIAAAAEAAgI=</HashCode>
+      <FileName>Pacientes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="hospitalUrgency.Profissionais">
+    <Position X="6.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAgAAgBCAAIAAAAAAAACAAAAAAAABAIIAAQEAAgI=</HashCode>
+      <FileName>Profissionais.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="ListaPrioridade" />
+      <Property Name="Tratamento" />
+      <Property Name="Pacientes" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="hospitalUrgency.Program">
+    <Position X="6.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="hospitalUrgency.Tratamento">
+    <Position X="4.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAFABAAAAAAAAAAAAAAAAEABAAAAAAQAAAAEgA=</HashCode>
+      <FileName>Tratamento.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Pacientes" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
